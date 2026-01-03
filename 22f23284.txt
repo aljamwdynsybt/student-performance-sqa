@@ -16,3 +16,7 @@ Else
 End If
 Display performance
 End
+
+Note:
+Input validation added to prevent invalid number of subjects
+
