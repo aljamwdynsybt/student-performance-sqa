@@ -14,5 +14,6 @@ Else if average >= 60
 Else
     performance = "Poor"
 End If
+print("Student performance level is:", performance)
 Display performance
 End
