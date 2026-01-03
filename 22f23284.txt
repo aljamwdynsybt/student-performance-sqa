@@ -1,0 +1,18 @@
+Algorithm: Student Performance Classification
+Start
+Input number of subjects
+Set total = 0
+For each subject
+    Input subject score
+    total = total + score
+End For
+average = total / number of subjects
+If average >= 85
+    performance = "Excellent"
+Else if average >= 60
+    performance = "Good"
+Else
+    performance = "Poor"
+End If
+Display performance
+End
