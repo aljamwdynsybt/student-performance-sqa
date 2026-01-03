@@ -1,6 +1,10 @@
 Algorithm: Student Performance Classification
 Start
 Input number of subjects
+If number of subjects <= 0
+    Display "Invalid number of subjects"
+    Stop
+End If
 Set total = 0
 For each subject
     Input subject score
@@ -16,7 +20,3 @@ Else
 End If
 Display performance
 End
-
-Note:
-Input validation added to prevent invalid number of subjects
-
